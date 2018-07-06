@@ -4,6 +4,6 @@ class Character < ActiveRecord::Base
   #has a catchphrase
 
   def say_that_thing_you_say
-    "#{self.name} always says: #{self.catchphrase}"
+    "#{self.name} always says: #{self.catchphrase}" #no puts, we want a return value 
   end
 end
